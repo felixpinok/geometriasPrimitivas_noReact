@@ -120,8 +120,8 @@ void draw() {
   }
   for (int n = 0; n < hexagono.length; n++) { // "**"
     pushMatrix();
-    translate(width/2+151, height/2-334);
-    rotate(19.89);
+    translate(width/2+152, height/2-334);
+    rotate(19.895);
     hexagono[n].updateAndRender();
     popMatrix();
   }
